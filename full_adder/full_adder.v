@@ -15,9 +15,11 @@ input cin,
 output sum,
 output cout
 );
+
 wire i1;
 wire i2;
 wire i3;
+
 half_adder ha1 (
 .A(in1), .B(in2), .S(i1), .C(i2)
 );
@@ -26,7 +28,5 @@ half_adder ha2 (
 );
 
 assign cout = i2 | i3;
-
-
 endmodule
 

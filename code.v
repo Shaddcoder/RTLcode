@@ -1,5 +1,0 @@
-module nameduc (
-
-
-);
-endmodule
